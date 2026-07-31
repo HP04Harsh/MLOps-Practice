@@ -1,0 +1,9 @@
+venv/
+.env
+data/preprocessed/
+models/
+__pycache__/
+*.pyc
+mlruns/
+mlflow.db
+.DS_Store
