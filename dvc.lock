@@ -39,8 +39,8 @@ stages:
     outs:
     - path: models/model.pkl
       hash: md5
-      md5: 50d586d84711265fa2d82527cd3a507a
-      size: 2288879
+      md5: 638ed97000d02644c02285d5e6ff6cfa
+      size: 2294799
   evaluate:
     cmd: python src/evaluate.py
     deps:
@@ -50,8 +50,8 @@ stages:
       size: 23873
     - path: models/model.pkl
       hash: md5
-      md5: 50d586d84711265fa2d82527cd3a507a
-      size: 2288879
+      md5: 638ed97000d02644c02285d5e6ff6cfa
+      size: 2294799
     - path: src/evaluate.py
       hash: md5
       md5: 4ba1ddf0176da76d39f0c384ff8c77df
